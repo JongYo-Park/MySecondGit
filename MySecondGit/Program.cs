@@ -12,7 +12,7 @@
             public string name;
             public int hp;
         }
-
+        enum ItemType { Weapon, Armor, Usable }
         struct Item
         {
             public string name;
